@@ -1,9 +1,9 @@
 # TinyMCE
 
+
 ## 引用
 ```html
-<script src="https://cdn.jsdelivr.net/gh/JX3BOX/tinymce@0.1.2/tinymce.min.js"></script>
-<script src="https://console.cnyixun.com/static/tinymce/tinymce.min.js?v=xx"></script>
+<script src="https://cdn.deepberry.cn/static/tinymce/tinymce.min.js"></script>
 ```
 
 ## 构建
@@ -17,18 +17,18 @@ npm run build更新css
 + 内置powerpaste&&checklist插件
 + 增加插入B站视频插件
 + 增加插入折叠文本插件
-+ 增加mathjax支持latex - 2020/06/05
++ 增加mathjax支持latex
 
 
 ## 插件添加步骤
 1. icons/custom/icons.js 添加svg图标,需设置尺寸,注意视口大小,移除换行符等
 2. plugins目录，复制videox(input),foldtext(null)目录作为参考新建插件目录，替换videox为新插件名
-3. 更新cdn：https://oss.jx3box.com/static/tinymce/tinymce.min.js
+3. 注意更新cdn同步：https://cdn.deepberry.cn/static/tinymce/tinymce.min.js
 4. 编辑器配置中激活插件和添加工具栏项
 
 ## 更新样式
 ```
 npm run update
 npm run build
-CDN https://oss.jx3box.com/static/tinymce/skins/content/default/content.min.css
+CDN https://cdn.deepberry.cn/static/tinymce/skins/content/default/content.min.css
 ```

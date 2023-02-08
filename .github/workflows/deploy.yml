@@ -12,20 +12,6 @@ jobs:
         with:
           persist-credentials: false
 
-      # - name: Install && Build
-      #   run: |
-      #     npm install
-      #     npm run build
-
-      # - name: Github Pages
-      #   uses: JamesIves/github-pages-deploy-action@releases/v3
-      #   with:
-      #     ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-      #     BRANCH: gh-pages
-      #     FOLDER: dist
-      #     CLEAN: false
-      #     # CLEAN_EXCLUDE: '["css", "js"]'
-
       - name: OSS
         uses: manyuanrong/setup-ossutil@v2.0
         with:
