@@ -7,14 +7,12 @@
 ```
 
 ## 构建
-如使用oss域名，需手动更新cdn
-npm run build更新css
-
+`npm run build`更新css构建
 
 ## 特性
 + 基于tinymce v5.2.2扩展
 + 保留v4版本分割线规则
-+ 内置powerpaste&&checklist插件
++ 内置powerpaste&checklist插件
 + 增加插入B站视频插件
 + 增加插入折叠文本插件
 + 增加mathjax支持latex
@@ -23,12 +21,10 @@ npm run build更新css
 ## 插件添加步骤
 1. icons/custom/icons.js 添加svg图标,需设置尺寸,注意视口大小,移除换行符等
 2. plugins目录，复制videox(input),foldtext(null)目录作为参考新建插件目录，替换videox为新插件名
-3. 注意更新cdn同步：https://cdn.deepberry.cn/static/tinymce/tinymce.min.js
-4. 编辑器配置中激活插件和添加工具栏项
+3. 编辑器配置中激活插件和添加工具栏项
 
-## 更新样式
+## CDN更新
 ```
-npm run update
-npm run build
-CDN https://cdn.deepberry.cn/static/tinymce/skins/content/default/content.min.css
+https://cdn.deepberry.cn/static/tinymce/tinymce.min.js
+https://cdn.deepberry.cn/static/tinymce/skins/content/default/content.min.css
 ```
