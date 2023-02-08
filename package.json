@@ -1,9 +1,10 @@
 {
-    "name": "@jx3box/tinymce",
+    "name": "@deepberry/tinymce",
     "version": "0.2.1",
-    "description": "基于tinymce 5.2.2扩展JX3BOX专用",
+    "description": "基于tinymce 5.2.2扩展DeepBerry专用",
     "main": "tinymce.js",
     "devDependencies": {
+        "@deepberry/common": "^0.2.3",
         "@jx3box/jx3box-common": "^7.6.2",
         "@jx3box/jx3box-editor": "^1.6.8",
         "csslab": "^4.0.3",
@@ -11,20 +12,20 @@
         "serve": "^14.2.0"
     },
     "scripts": {
-        "update": "npm --registry https://registry.npmjs.org install @jx3box/jx3box-common@latest @jx3box/jx3box-editor@latest",
+        "update": "",
         "build": "npx lessc ./skins/content/default/content.less ./skins/content/default/content.min.css",
         "serve": "serve",
         "dev": "serve"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/JX3BOX/tinymce.git"
+        "url": "git+https://github.com/deepberry/tinymce.git"
     },
     "keywords": [],
     "author": "iRuxu <rx6@qq.com> (https://iruxu.com/)",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/JX3BOX/tinymce/issues"
+        "url": "https://github.com/deepberry/tinymce/issues"
     },
-    "homepage": "https://github.com/JX3BOX/tinymce#readme"
+    "homepage": "https://github.com/deepberry/tinymce#readme"
 }
