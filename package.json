@@ -5,6 +5,7 @@
     "main": "tinymce.js",
     "devDependencies": {
         "@deepberry/common": "^0.2.3",
+        "@deepberry/editor": "^0.1.4",
         "csslab": "^4.0.3",
         "less": "^3.11.1",
         "serve": "^14.2.0"

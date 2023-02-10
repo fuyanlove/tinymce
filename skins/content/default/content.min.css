@@ -249,7 +249,7 @@
   max-width: 100%;
   border: none;
   line-height: 2.2;
-  color: #3d454d;
+  color: #00467b;
 }
 .c-article-tinymce table td,
 .c-article-tinymce table th {
@@ -552,7 +552,7 @@
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 .c-article-tinymce .w-latex:after {
-  content: "DEEPBERRY·Katex";
+  content: "JX3BOX·Katex";
   position: absolute;
   right: 0;
   top: -30px;
@@ -614,6 +614,7 @@
   max-width: 100%;
   overflow-x: auto;
   text-align: center;
+  justify-content: center;
 }
 .c-article-pages .el-pager {
   margin: 0;
@@ -695,7 +696,7 @@
   color: #0366d6;
 }
 .c-article-directory a {
-  color: #3d454d;
+  color: #00467b;
 }
 .c-article-directory h1::before,
 .c-article-directory h2::before,
