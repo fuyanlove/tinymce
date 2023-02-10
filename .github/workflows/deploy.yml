@@ -1,21 +1,21 @@
 name: Github Pages
 on:
-  push:
-    branches:
-      - master
+    push:
+        branches:
+            - master
 jobs:
-  build-and-deploy:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v2
-        with:
-          persist-credentials: false
+    build-and-deploy:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v2
+              with:
+                  persist-credentials: false
 
-      - name: OSS
-        uses: manyuanrong/setup-ossutil@v2.0
-        with:
-          endpoint: "oss-cn-hangzhou.aliyuncs.com"
-          access-key-id: ${{secrets.OSS_ACCESSKEY_ID}}
-          access-key-secret: ${{secrets.OSS_ACCESS_KEY_SECRET}}
-      - run: ossutil cp -rf . oss://deepberry/static/tinymce
+            - name: OSS
+              uses: manyuanrong/setup-ossutil@v2.0
+              with:
+                  endpoint: "oss-cn-zhangjiakou.aliyuncs.com"
+                  access-key-id: ${{secrets.OSS_ACCESSKEY_ID}}
+                  access-key-secret: ${{secrets.OSS_ACCESS_KEY_SECRET}}
+            - run: ossutil cp -rf . oss://deepberry/static/tinymce
