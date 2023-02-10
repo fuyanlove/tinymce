@@ -18,4 +18,4 @@ jobs:
           endpoint: "oss-cn-hangzhou.aliyuncs.com"
           access-key-id: ${{secrets.OSS_ACCESSKEY_ID}}
           access-key-secret: ${{secrets.OSS_ACCESS_KEY_SECRET}}
-      - run: ossutil cp -rf dist oss://deepberry/static/tinymce
+      - run: ossutil cp -rf . oss://deepberry/static/tinymce
