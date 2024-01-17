@@ -1,11 +1,10 @@
 {
-    "name": "@deepberry/tinymce",
-    "version": "0.2.1",
-    "description": "基于tinymce 5.2.2扩展DeepBerry专用",
+    "name": "@suplasercut/tinymce",
+    "version": "0.0.1",
+    "description": "基于tinymce 5.2.2扩展Suplasercut专用",
     "main": "tinymce.js",
     "devDependencies": {
-        "@deepberry/common": "^0.2.3",
-        "@deepberry/editor": "^0.1.4",
+        "@suplasercut/editor": "^0.1.4",
         "csslab": "^4.0.3",
         "less": "^3.11.1",
         "serve": "^14.2.0"
@@ -18,13 +17,13 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/deepberry/tinymce.git"
+        "url": "git+https://github.com/fuyanlove/tinymce.git"
     },
     "keywords": [],
     "author": "iRuxu <rx6@qq.com> (https://iruxu.com/)",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/deepberry/tinymce/issues"
+        "url": "https://github.com/fuyanlove/tinymce/issues"
     },
-    "homepage": "https://github.com/deepberry/tinymce#readme"
+    "homepage": "https://github.com/fuyanlove/tinymce#readme"
 }

@@ -3,7 +3,7 @@
 
 ## 引用
 ```html
-<script src="https://cdn.deepberry.cn/static/tinymce/tinymce.min.js"></script>
+<script src="https://cdn.gatesstsuperlaser.com/static/tinymce/tinymce.min.js"></script>
 ```
 
 ## 构建
@@ -25,6 +25,6 @@
 
 ## CDN更新
 ```
-https://cdn.deepberry.cn/static/tinymce/tinymce.min.js
-https://cdn.deepberry.cn/static/tinymce/skins/content/default/content.min.css
+https://cdn.gatesstsuperlaser.com/static/tinymce/tinymce.min.js
+https://cdn.gatesstsuperlaser.com/static/tinymce/skins/content/default/content.min.css
 ```
