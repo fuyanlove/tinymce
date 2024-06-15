@@ -1,6 +1,6 @@
 {
     "name": "@suplasercut/tinymce",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "基于tinymce 5.2.2扩展Suplasercut专用",
     "main": "tinymce.js",
     "devDependencies": {
